@@ -1,0 +1,43 @@
+/*HTML = id/ CSS = #
+ HTML = class/ CSS = .
+ id é único(somente uma tag pode ter um id)
+ class pode ser multiplo(várias tags podem pertencer a mesma class)*/
+
+ body{
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ h1{
+     color: black;
+     text-align: center;
+ }
+
+ h1#html{
+     color: orange;
+     text-align: left;
+ }
+
+ h1#css{
+     color: blue;
+     text-align: left;
+ }
+
+ h2{
+     color: rgb(137, 105, 167);
+ }
+
+ .basico{
+     color: rgb(128, 123, 123);
+ }
+
+ .avancado{
+     color: red;
+ }
+
+ .des{
+     color: green;
+ }
+
+ .destaque{
+     background-color: rgb(209, 171, 245);
+ }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="shortcut icon" href="vscode-icon.ico" type="image/x-icon"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações semânticas(Parte 1)</title>
+    <style>
+        mark{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Formatações</h1>
+    <h2>Negrito</h2>
+    <p>Esse parágrafo não está em negrito</p>
+    <p><b>Esse parágrafo está em negrito(sem semântica)</b></p>
+    <p><strong>Esse parágrafo está em negrito(com semântica)</strong></p>
+    <h2>Itálico</h2>
+    <p>Esse parágrafo não está em itálico</p>
+    <p><i>Esse parágrafo está em itálico(Sem semântica)</i></p>
+    <!--Para colocar em itálico: CTRL + SHIFT + P e escolher WRAP WITH ABBREVIATION-->
+    <p><em>Esse parágrafo está em itálico(com semântica)</em></p>
+    <h2>Texto marcado</h2>
+    <p>Esse texto não está marcado</p>
+    <p><mark style="background-color: aqua;">Esse texto está marcado</mark></p>
+    <!--Para fazer uma mudança de cor da marcação localmente usar style->background-color->escolher a cor  -->
+    <!--Para fazer uma mudança de cor da marcação na em todas as tags do mesmo tipo usar style->background-color->escolher a cor, em head --> 
+    <h2>Texto inserido e deletado</h2>
+    <p><del>Esse texto está como deletado</del></p>
+    <p><ins>Esse texto está como inserido</ins></p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir texto do tipo 4 ao quadrado + 8: 4<sup>2</sup> + 5</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir texto como a fórmula da água: h<sub>2</sub>O</p>
+</body>
+</html>
