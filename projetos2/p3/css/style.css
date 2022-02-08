@@ -140,11 +140,10 @@ header {
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 1.5em;
-    background-image: linear-gradient(to bottom, #FFB6C1, #E0AE4E);
+    background-image: linear-gradient(to bottom, #FFB6C1, #BAA889);
+    height: 400px;
 }
 
-video {
-    width: 500px;
-    margin-top: 30px;
-    border-radius: 5px;
+#c-div-img {
+    border-radius: 10px;
 }
