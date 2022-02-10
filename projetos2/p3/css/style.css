@@ -140,10 +140,113 @@ header {
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 1.5em;
-    background-image: linear-gradient(to bottom, #FFB6C1, #BAA889);
-    height: 400px;
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    height: 610px;
+    
 }
 
-#c-div-img {
-    border-radius: 10px;
+#section-c-h2 {
+    padding-top: 10px;
+}
+
+#caixa {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.section-c-div {
+    display: inline-block;
+    width: 640px;
+    height: 426px;
+    background-color: #f33971;
+    margin-top: 30px;
+}
+
+.section-c-img {
+    border-radius: 5px;
+    
+}
+
+.section-c-p {
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: 900;
+    font-family: 'Amatic SC', cursive;
+}
+
+.section-c-p:hover {
+    text-decoration: underline;
+    color: #ff1c60;
+    font-size: 1.6em;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+#footer-div-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+#footer-div-a h3 {
+    font-size: 1.5em;
+    padding: 10px;
+    font-weight: 300;
+}
+
+#footer-div-a p {
+    max-width: 550px;
+    margin: auto;
+}
+
+#footer-div-a ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+#footer-div-a li {
+    margin: 0 10px;
+}
+
+#footer-div-a a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer-div-a a i {
+    font-size: 1.5rem;
+}
+
+#footer-div-a a:hover i {
+    color: #f01872;
+    transition: 0.5s ease;
+}
+
+#footer-div-b{
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+}
+
+#footer-div-b p {
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+#footer-div-b p span {
+    opacity: .4;
+    text-transform: uppercase;
+    font-weight: 200;
 }
